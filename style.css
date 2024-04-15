@@ -1,0 +1,75 @@
+:root {
+  --clr-dark: rgb(53, 53, 53);
+}
+body {
+  background-color: rgb(202, 210, 197) !important;
+}
+.header-section {
+  padding: 1rem;
+  display: flex;
+  background-color: rgb(47, 61, 70);
+  color: rgb(231, 236, 237);
+}
+
+.image {
+  font-size: 2rem !important;
+}
+.header-section p {
+  padding-top: 11px;
+  position: absolute;
+  left: 45%;
+  font-size: 18px;
+  font-weight: 400;
+}
+h1 {
+  color: var(--clr-dark);
+}
+.leftside {
+  height: 450px;
+  background-color: var(--clr-dark);
+  border-radius: 2rem;
+}
+.one {
+  height: 100px;
+  background-color: var(--clr-dark);
+  border-radius: 1rem;
+  margin-top: 4rem !important;
+}
+.two {
+  height: 100px;
+  border-radius: 1rem;
+  background-color: var(--clr-dark);
+  margin-top: 6rem !important;
+}
+.search input {
+  background-color: var(--clr-dark);
+}
+::placeholder {
+  color: rgb(148, 148, 148) !important;
+}
+
+@media screen and (max-width: 769px) {
+  .leftside {
+    width: 90% !important;
+    margin: auto !important;
+  }
+  .search {
+    margin-left: 25% !important;
+    padding-right: 0 !important;
+  }
+  .three-box {
+    margin-left: 35% !important;
+    width: 200% !important;
+  }
+  .one {
+    margin-top: 5% !important;
+    padding-right: 0 !important;
+  }
+  .two {
+    margin-top: 8% !important;
+    height: 10rem !important;
+  }
+  .lastbox {
+    margin-left: 10% !important;
+  }
+}
